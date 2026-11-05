@@ -1,18 +1,18 @@
 class ClaudePresence < Formula
   desc "macOS daemon aggregating live Claude Code activity into one Discord Rich Presence"
-  homepage "https://github.com/jaymadeapp/claude-presence"
+  homepage "https://github.com/thetedotgg/claude-presence"
   version "0.1.6"
   license "MIT"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/jaymadeapp/claude-presence/releases/download/v0.1.6/claude-presence-aarch64-apple-darwin.tar.gz"
+    url "https://github.com/thetedotgg/claude-presence/releases/download/v0.1.6/claude-presence-aarch64-apple-darwin.tar.gz"
     sha256 "515e90ffd3025d1392441f04011155c655b003e8b9d8dca413b36c3f4ea7a59a"
   end
 
   on_intel do
-    url "https://github.com/jaymadeapp/claude-presence/releases/download/v0.1.6/claude-presence-x86_64-apple-darwin.tar.gz"
+    url "https://github.com/thetedotgg/claude-presence/releases/download/v0.1.6/claude-presence-x86_64-apple-darwin.tar.gz"
     sha256 "5dab681d35e60954bd0a8e4be855a08b8dbf577fd53666cab3a0fcc4062abfcc"
   end
 
